@@ -19,6 +19,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @Theme(value = "marq")
 @PWA(name = "marq", shortName = "marq", offlineResources = {})
 @NpmPackage(value = "line-awesome", version = "1.3.0")
+@NpmPackage(value = "marquee3000", version = "1.0.6")
 public class Application extends SpringBootServletInitializer implements AppShellConfigurator {
 
     public static void main(String[] args) {
